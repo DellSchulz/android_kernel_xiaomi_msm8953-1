@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 3.18.75-ソウルテイカー Kernel Configuration
+# Linux/arm64 3.18.81 Kernel Configuration
 #
 CONFIG_ARM64=y
 CONFIG_64BIT=y
@@ -289,7 +289,9 @@ CONFIG_IOSCHED_NOOP=y
 # CONFIG_IOSCHED_TEST is not set
 CONFIG_IOSCHED_DEADLINE=y
 CONFIG_IOSCHED_CFQ=y
+CONFIG_IOSCHED_MAPLE=y
 # CONFIG_DEFAULT_DEADLINE is not set
+# CONFIG_DEFAULT_MAPLE is not set
 CONFIG_DEFAULT_CFQ=y
 # CONFIG_DEFAULT_NOOP is not set
 CONFIG_DEFAULT_IOSCHED="cfq"
